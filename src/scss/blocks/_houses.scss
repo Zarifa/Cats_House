@@ -1,0 +1,52 @@
+.houses {
+    min-width: 700px;
+    padding: 0px 175px 45px 175px;
+    &_wrapper {
+        display: flex;
+        // justify-content: space-around;
+        &_top {
+            margin-top: 49px;
+        }
+        &_botton {
+            margin-top: 37px;
+        }
+    }
+    .icon_paw {
+        padding: 50px 0 16px 0;
+    }
+    &_subtitle {
+        text-align: center;
+        font-family: "Roboto Slab";
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 22px;
+    }
+    &_types {
+        margin: 0 auto;
+        margin-right: 10px;
+        &_1 {
+            // position: absolute;
+            margin-left: 120px;
+        }
+        &_2 {
+            // position: absolute;
+            margin-left: 144px;
+        }
+        &_3 {
+            // position: absolute;
+            margin-left: 170px;
+        }
+        &_5 {
+            // position: absolute;
+            margin-left: 182px;
+        }
+        &_6 {
+            // position: absolute;
+            margin-left: 170px;
+        }
+    }
+}
+
+.main_title {
+    font-size: 31px;
+}

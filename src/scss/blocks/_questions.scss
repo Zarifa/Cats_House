@@ -1,0 +1,22 @@
+.question {
+    min-height: 180px;
+    padding: 57px 260px 60px 260px;
+    background-image: url(../img/bgn_questions.jpg);
+    background-repeat: no-repeat;
+    // background-size: cover;
+    background-position: center;
+    &_wrap {
+        display: flex;
+        justify-content: center;
+    }
+    .title {
+        position: relative;
+        right: 82px;
+        color: #000000;
+        font-family: "Roboto Slab Regular";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+    }
+}

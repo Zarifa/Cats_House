@@ -1,0 +1,158 @@
+            header,
+            footer {
+                .col-xl-2 {
+                    padding: 0;
+                }
+            }
+            
+            header {
+                .logo img {
+                    margin-top: 44px;
+                    margin-left: 18px;
+                    // width: 175px;
+                    // height: 90px;
+                }
+            }
+            
+            footer {
+                .logo img {
+                    margin-top: 15px;
+                    margin-left: 25px;
+                }
+            }
+            
+            header,
+            footer {
+                .logo_title {
+                    margin: 60px 0 0 0px;
+                    color: #000000;
+                    font-family: 'Roboto';
+                    font-size: 18px;
+                }
+            }
+            
+            footer {
+                .logo_title {
+                    margin: 34px 0 0 16px;
+                }
+            }
+            
+            footer {
+                &_wrapper {
+                    width: 160px;
+                    margin-left: 78px;
+                    margin-top: 9px;
+                }
+            }
+            
+            .social_icons {
+                &_box {
+                    display: flex;
+                    justify-content: space-around;
+                    padding: 0;
+                }
+                &_wrapper {
+                    width: 160px;
+                    margin-left: 60px;
+                    margin-top: 36px;
+                }
+                &_title {
+                    text-align: center;
+                    display: block;
+                    // width: 138px;
+                    // color: $black;
+                    font-family: 'Roboto';
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+                &_circle {
+                    display: flex;
+                    border-radius: 100%;
+                    width: 30px;
+                    height: 30px;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 15px;
+                    &_vk {
+                        background-color: #4c75a3;
+                    }
+                    &_facebook {
+                        background-color: #4267B2;
+                    }
+                    &_instagram {
+                        background-color: #FFA500;
+                    }
+                    &_ok {
+                        background-color: #FFD700;
+                    }
+                }
+                &_logos {
+                    color: white;
+                }
+            }
+            
+            footer {
+                .contact {
+                    margin-top: 0px;
+                }
+            }
+            
+            .contact {
+                display: block;
+                // float: right;
+                margin-top: 37px;
+                padding-left: 39px;
+                justify-content: flex-end;
+                &_title {
+                    color: #242424;
+                    font-size: 12px;
+                    font-weight: 400;
+                    text-align: left;
+                }
+                &_tel a {
+                    color: #242424;
+                    font-family: "Roboto Slab";
+                    font-size: 19px;
+                    font-weight: 700;
+                    line-height: 14px;
+                }
+                &_request a {
+                    padding: 0;
+                    margin: 0 0 0 31px;
+                    color: #de6504;
+                    font-size: 14px;
+                    font-weight: 400;
+                    //    line-height: 20px;
+                    text-decoration: underline;
+                }
+                &_hours {
+                    color: #242424;
+                    font-size: 12px;
+                    font-weight: 400;
+                    margin: 0 0 15px 5px;
+                }
+            }
+            
+            footer {
+                .social_icons_wrapper {
+                    width: 160px;
+                    margin-left: 79px;
+                    margin-top: 9px;
+                }
+            }
+            
+            footer {
+                .contact .contact_title {
+                    padding-left: 0px;
+                    margin-top: 9px;
+                }
+                .contact_hours {
+                    padding-left: 0px;
+                }
+            }
+            
+            header {
+                .logo_title {
+                    line-height: 23px;
+                }
+            }

@@ -1,0 +1,55 @@
+.contacts {
+    min-height: 584px;
+    .map {
+        display: flex;
+        justify-content: center;
+        iframe {
+            // display: flex;
+            width: 940px;
+            height: 290px;
+            // justify-content: center;
+            // align-items: center;
+        }
+        &_addresses {
+            display: flex;
+            justify-content: left;
+            margin-top: 35px;
+            min-width: 820px;
+            margin-left: 110px;
+        }
+    }
+    .addresses {
+        display: flex;
+        img {
+            margin-right: 30px;
+            width: 30px;
+            height: 40px;
+        }
+        .address {
+            font-family: "Roboto Slab Regular";
+            font-size: 16px;
+            font-weight: 400;
+            padding-right: 147px;
+        }
+        .address_additional {
+            font-family: "Roboto Slab Regular";
+            font-size: 16px;
+            font-weight: 400;
+            padding-right: 63px;
+        }
+        .phone {
+            font-family: "Roboto Slab Regular";
+            font-size: 16px;
+            font-weight: 400;
+            padding-right: 147px;
+        }
+    }
+    .phone {
+        display: flex;
+        img {
+            margin-right: 33px;
+            width: 27px;
+            height: 40px;
+        }
+    }
+}

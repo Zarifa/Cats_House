@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,AAAC,CACE,UAAU,CAAE,UAAU,CACtB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,WAAW,CAAE,oBAAoB,CACpC",
+    "sources": [
+        "../scss/base.scss"
+    ],
+    "names": [],
+    "file": "base.min.css"
+}

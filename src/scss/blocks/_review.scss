@@ -1,0 +1,62 @@
+.review {
+    min-height: 750px;
+    &_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12px;
+    }
+    &_second {
+        margin-right: 60px;
+        width: 615px;
+        text-align: right;
+    }
+    &_first {
+        margin-left: 63px;
+        width: 606px;
+    }
+    &_img {
+        width: 240px;
+        height: 190px;
+        margin-top: 34px;
+    }
+    .icon_paw {
+        padding: 50px 0 13px 0;
+    }
+    .title {
+        color: #291402;
+        font-family: "Roboto Slab";
+        font-size: 18px;
+        font-weight: 700;
+        &_left {
+            text-align: left;
+        }
+        &_right {
+            text-align: right;
+        }
+    }
+    .subtitle {
+        margin: 1px 0 16px 0;
+        color: #9b7a5e;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .review_second {
+        .subtitle {
+            text-align: right;
+        }
+    }
+    .paragraph {
+        color: #291402;
+        font-family: "Roboto Italic";
+        font-size: 17px;
+        line-height: 20px;
+    }
+    &_button_review {
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+    }
+}

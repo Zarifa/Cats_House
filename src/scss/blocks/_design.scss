@@ -1,0 +1,42 @@
+.design {
+    background-image: url(../img/bgn_design_house.jpg);
+    background-position: center;
+    min-height: 670px;
+    &_section {
+        width: 192px;
+        padding-top: 89px;
+        &_1 {
+            position: relative;
+            left: 66px;
+        }
+        &_3 {
+            position: relative;
+            right: 66px;
+        }
+        &_subtitle {
+            width: 236px;
+            height: 40px;
+            margin-top: 25px;
+            color: #ffffff;
+            font-size: 18px;
+            text-align: center;
+            font-style: 'Roboto Italic';
+            margin-left: -20px;
+            line-height: 24px;
+        }
+    }
+    &_sections {
+        display: flex;
+        justify-content: space-around;
+    }
+    &_title {
+        color: #232323;
+    }
+    h1 {
+        color: #ffffff;
+        line-height: 40px;
+    }
+    .icon_paw {
+        padding: 55px 0 13px 0;
+    }
+}

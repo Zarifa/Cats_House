@@ -1,0 +1,101 @@
+            .button_submit {
+                /* Style for "Прямоуголь" */
+                margin: 10px 30px 22px 30px;
+                width: 180px;
+                height: 45px;
+                box-shadow: 0 2px 6px rgba(1, 1, 1, 0.15);
+                border-radius: 23px;
+                border: 1px solid #f28b05;
+                background-color: #000000;
+                background-image: linear-gradient(to top, #e8840f 0%, #f8b513 100%);
+                color: #ffffff;
+                font-family: "Roboto Slab";
+                font-size: 14px;
+                font-weight: 700;
+            }
+            
+            .happiness {
+                .button_submit {
+                    margin: 16px 30px 22px 30px;
+                }
+            }
+            
+            .corousel-inner {
+                .button_submit {
+                    position: absolute;
+                    z-index: 5;
+                    top: 216px;
+                    justify-content: center;
+                    margin-bottom: 49px;
+                }
+            }
+            
+            .question {
+                button {
+                    position: relative;
+                    left: 83px;
+                    bottom: -18px;
+                    width: 220px;
+                    height: 45px;
+                    box-shadow: 0 2px 6px rgba(1, 1, 1, 0.15);
+                    border-radius: 23px;
+                    border: 1px solid #f28b05;
+                    background-color: #000000;
+                    background-image: linear-gradient(to top, #e8840f 0%, #f8b513 100%);
+                    color: #ffffff;
+                    font-family: "Roboto Slab";
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+            
+            .corousel {
+                .corousel-inner {
+                    .button_submit {
+                        // margin: 0 auto;
+                        position: absolute;
+                        // z-index: 3;
+                        top: 213px;
+                        margin-left: 39px;
+                    }
+                }
+            }
+            
+            .design {
+                .button_submit {
+                    margin: 0 auto;
+                    margin-top: 43px;
+                    width: 220px;
+                }
+            }
+            
+            .additional {
+                .corousel-second {
+                    .button_submit {
+                        // margin: 0 auto;
+                        position: none;
+                        margin-left: 50px;
+                        width: 191px;
+                        height: 45px;
+                    }
+                }
+                .button_modal {
+                    /* Style for "Прямоуголь" */
+                    margin: 10px 30px 22px 30px;
+                    width: 180px;
+                    height: 45px;
+                    box-shadow: 0 2px 6px rgba(1, 1, 1, 0.15);
+                    border-radius: 23px;
+                    border: 1px solid #f28b05;
+                    background-color: #000000;
+                    background-image: linear-gradient(to top, #e8840f 0%, #f8b513 100%);
+                    color: #ffffff;
+                    font-family: "Roboto Slab";
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+                .review .button_modal {
+                    margin: 10px 30px 22px 30px;
+                    width: 218px;
+                }
+            }

@@ -1,0 +1,122 @@
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #232323;
+            font-family: "Roboto Slab";
+            font-size: 26px;
+            font-weight: 700;
+        }
+        
+        .icon_paw {
+            padding: 50px 0 26px 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .order {
+            .icon_paw {
+                padding: 55px 0 11px 0;
+            }
+        }
+        
+        .request {
+            &_button {
+                display: flex;
+                justify-content: center;
+            }
+            h1 {
+                font-size: 30px;
+                // margin-bottom: 49px;
+            }
+            &_form {
+                background-image: url(../img/bg_small.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 820px;
+                min-height: 327px;
+                margin: 0 auto;
+                margin-top: 41px;
+                // margin-bottom: 56px;
+                h1 {
+                    color: #232323;
+                    font-family: "Roboto Slab";
+                    font-size: 25px;
+                    font-weight: 700;
+                    padding: 57px 0 16px 0;
+                }
+                .button_submit {
+                    width: 220px;
+                    height: 45px;
+                }
+                &_input {
+                    display: flex;
+                    justify-content: center;
+                    input {
+                        margin: 5px;
+                        margin-top: 24px;
+                    }
+                }
+            }
+            &_subtitle {
+                color: #232323;
+                font-size: 16px;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+        
+        .order_box {
+            .request {
+                &_form {
+                    background-image: none;
+                    width: 829px;
+                    min-height: 310px;
+                    min-zoom: 300px;
+                    border: 5px solid #f9ddb0;
+                    background-color: #fff7ea;
+                    margin-top: 0px;
+                    &_input {
+                        margin-top: 26px;
+                    }
+                    h1 {
+                        padding: 0px;
+                        font-size: 22px;
+                        line-height: 29px;
+                    }
+                }
+                &_subtitle {
+                    margin: -8px 0px 13px 0;
+                    font-size: 14px;
+                }
+            }
+        }
+        
+        .contacts {
+            .icon_paw {
+                padding: 51px 0 15px 0;
+            }
+            h1 {
+                margin-bottom: 40px;
+            }
+        }
+        
+        .additional {
+            .icon_paw {
+                padding: 50px 0 13px 0;
+            }
+        }

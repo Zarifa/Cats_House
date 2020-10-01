@@ -1,0 +1,77 @@
+.happiness {
+    // position: absolute;
+    min-height: 370px;
+    background-image: url(../img/bgn_happiness.png);
+    background-position: center;
+    // background-repeat: no-repeat;
+    background-size: cover;
+    color: #232323;
+    font-family: "Roboto Slab";
+    font-size: 12px;
+    color: orange;
+    text-align: center;
+    &_title {
+        text-align: right;
+        margin: 106px 0 25px 0;
+        line-height: 25px;
+    }
+    &_subtitle {
+        color: #393939;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: right;
+        line-height: 20px;
+    }
+    .col-xl-3 {
+        padding-left: 30px;
+    }
+}
+
+.consultation {
+    // position: relative;
+    // top: 50%;
+    // left: 66%;
+    // transform: translate(-50%, -50%);
+    margin: 25px 0 25px 0;
+    margin-left: 0;
+    width: 240px;
+    min-height: 320px;
+    border: 3px solid #f9ddb0;
+    background-color: #ffffff;
+}
+
+#consultation-form {
+    justify-content: center;
+}
+
+.title {
+    margin: 14px 0 12px 0;
+    color: #242424;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 16px;
+}
+
+.subtitle {
+    color: #242424;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    &_descr {
+        margin: 6px 0 3px 0;
+        text-align: center;
+        color: #242424;
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13px;
+    }
+}
+
+label {
+    margin-bottom: 0;
+}

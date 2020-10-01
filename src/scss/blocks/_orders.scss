@@ -1,0 +1,51 @@
+.order {
+    min-height: 884px;
+    background-image: url(../img/bgn_order.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-position: 49% 50%;
+    // background-position: center;
+    .main_title {
+        margin-bottom: 1.7rem;
+    }
+    &_wrap {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        &_small {
+            display: none;
+        }
+    }
+    &_title {
+        margin-top: 41px;
+        color: #232323;
+        font-family: 'Roboto Slab Regular';
+        font-size: 18px;
+        line-height: 22px;
+    }
+    &_steps {
+        margin: 76px 40px 50px 40px;
+        justify-content: center;
+        text-align: center;
+        width: 205px;
+        height: 241px;
+        top: -8px;
+    }
+    &_steps_1 {
+        position: relative;
+        left: 60px;
+    }
+    &_steps_2 {
+        position: relative;
+        left: 23px;
+    }
+    &_steps_3 {
+        position: relative;
+        left: -18px;
+    }
+    &_steps_4 {
+        position: relative;
+        left: -55px;
+    }
+}
